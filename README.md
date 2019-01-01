@@ -11,9 +11,9 @@ The following **steps** are described:
 * Inference and Validation
 
 **Analysis:**
-* Model used: ResNet50
-* Epochs trained: 10
-* Validation accuracy: 93.64%
+* Model used: ResNet101
+* Epochs trained: 20
+* Validation accuracy: 94.13%
 * Optimizer used: Adam
 * Loss used: CrossEntropyLoss
 * Scheduler used: StepLR
