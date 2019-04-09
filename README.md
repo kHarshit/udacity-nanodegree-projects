@@ -35,3 +35,10 @@ The following tasks were completed:
 * Detect Dogs
 * Create a CNN to Classify Dog Breeds (from Scratch)
 * Create a CNN to Classify Dog Breeds (using Transfer Learning)
+
+
+## Project 3: TV Script generation
+
+The [tv_script_generation.ipynb](https://nbviewer.jupyter.org/github/kHarshit/transfer-learning/blob/master/tv_script_generation.ipynb) contains the project TV Script generation.
+
+* The poject uses LSTM.
