@@ -42,3 +42,16 @@ The following tasks were completed:
 The [tv_script_generation.ipynb](https://nbviewer.jupyter.org/github/kHarshit/transfer-learning/blob/master/tv_script_generation.ipynb) contains the project TV Script generation.
 
 * The poject uses LSTM.
+
+
+## Project 4: Generate Faces
+
+The [face_generation_dcgan.ipynb](https://nbviewer.jupyter.org/github/kHarshit/transfer-learning/blob/master/face_generation_dcgan.ipynb) contains the project on face generation.
+
+* Model used: DCGAN
+  * Discriminator: strided convolution > batch norm > leaky ReLU
+  * Generator: transpose convolution > batch norm > ReLU
+* Optimizers: Adam
+* learning rate: 0.0002
+* beta1 = 0.5  *(changed from 0.9)*
+* beta2 = 0.999  *(default value)*
