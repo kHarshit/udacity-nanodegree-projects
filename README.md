@@ -22,12 +22,12 @@ The following **steps** are described:
 * Device used: cuda
 * Comments: `fc` layer replacement with combination of linear layers with Dropout regularization 
 
-**NOTE:** *If the notebook doesn't render here on GitHub, try it on [nbviewer](https://nbviewer.jupyter.org/github/kHarshit/transfer-learning/blob/master/Transfer%20learning%20%28PyTorch%29.ipynb).*
+**NOTE:** *If the notebook doesn't render here on GitHub, try it on [nbviewer](https://nbviewer.jupyter.org/github/kHarshit/pytorch-projects/blob/master/Transfer%20learning%20%28PyTorch%29.ipynb).*
 
 
 ## Project 2: dog_app.ipynb
 
-The [notebook](https://nbviewer.jupyter.org/github/kHarshit/transfer-learning/blob/master/dog_app.ipynb) contains the project (Dog-Breed Classifier) of **Deep Learning Nanodegree** from Udacity.
+The [notebook](https://nbviewer.jupyter.org/github/kHarshit/pytorch-projects/blob/master/dog_app.ipynb) contains the project (Dog-Breed Classifier) of **Deep Learning Nanodegree** from Udacity.
 
 The following tasks were completed:
 
@@ -35,3 +35,23 @@ The following tasks were completed:
 * Detect Dogs
 * Create a CNN to Classify Dog Breeds (from Scratch)
 * Create a CNN to Classify Dog Breeds (using Transfer Learning)
+
+
+## Project 3: TV Script generation
+
+The [tv_script_generation.ipynb](https://nbviewer.jupyter.org/github/kHarshit/pytorch-projects/blob/master/tv_script_generation.ipynb) contains the project TV Script generation.
+
+* The poject uses LSTM.
+
+
+## Project 4: Generate Faces
+
+The [face_generation_dcgan.ipynb](https://nbviewer.jupyter.org/github/kHarshit/pytorch-projects/blob/master/face_generation_dcgan.ipynb) contains the project on face generation.
+
+* Model used: DCGAN
+  * Discriminator: strided convolution > batch norm > leaky ReLU
+  * Generator: transpose convolution > batch norm > ReLU
+* Optimizers: Adam
+* learning rate: 0.0002
+* beta1 = 0.5  *(changed from 0.9)*
+* beta2 = 0.999  *(default value)*
