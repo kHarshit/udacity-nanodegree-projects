@@ -1,9 +1,10 @@
-# Transfer Learning in PyTorch
+# pytorch-projects
 
-## Project 1: Transfer learning (PyTorch).ipynb
+The notebooks contain the projects of **PyTorch Scholarship Challenge** and **Deep Learning Nanodegree** from Udacity and facebook.
 
-The notebook contains the final project of **PyTorch Scholarship Challenge** from Udacity and facebook.
+## Project 1: Flower image classification
 
+The [flower_image_classification.ipynb](https://nbviewer.jupyter.org/github/kHarshit/pytorch-projects/blob/master/flower_image_classification.ipynb) contains the project Flower image classifier.
 The 102 Category Flower [Dataset](http://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html) from Visual Geometry Group, University of Oxford, is used.
 
 The following **steps** are described:
@@ -22,12 +23,10 @@ The following **steps** are described:
 * Device used: cuda
 * Comments: `fc` layer replacement with combination of linear layers with Dropout regularization 
 
-**NOTE:** *If the notebook doesn't render here on GitHub, try it on [nbviewer](https://nbviewer.jupyter.org/github/kHarshit/pytorch-projects/blob/master/Transfer%20learning%20%28PyTorch%29.ipynb).*
 
+## Project 2: Dog breed classification
 
-## Project 2: dog_app.ipynb
-
-The [notebook](https://nbviewer.jupyter.org/github/kHarshit/pytorch-projects/blob/master/dog_app.ipynb) contains the project (Dog-Breed Classifier) of **Deep Learning Nanodegree** from Udacity.
+The [dog_breed_classification.ipynb](https://nbviewer.jupyter.org/github/kHarshit/pytorch-projects/blob/master/dog_breed_classification.ipynb) contains the project Dog-Breed Classifier.
 
 The following tasks were completed:
 
@@ -48,10 +47,26 @@ The [tv_script_generation.ipynb](https://nbviewer.jupyter.org/github/kHarshit/py
 
 The [face_generation_dcgan.ipynb](https://nbviewer.jupyter.org/github/kHarshit/pytorch-projects/blob/master/face_generation_dcgan.ipynb) contains the project on face generation.
 
-* Model used: DCGAN
+* Model used: DCGAN (Deep Convolutional Generative Adversarial Networks)
   * Discriminator: strided convolution > batch norm > leaky ReLU
   * Generator: transpose convolution > batch norm > ReLU
 * Optimizers: Adam
 * learning rate: 0.0002
 * beta1 = 0.5  *(changed from 0.9)*
 * beta2 = 0.999  *(default value)*
+
+
+## Project 5: Deploying sentiment analysis model on Sagemaker
+
+The [sagemaker_sentiment_analysis.ipynb](https://nbviewer.jupyter.org/github/kHarshit/pytorch-projects/blob/master/sagemaker_sentiment_analysis.ipynb) contains the project Deploying sentiment analysis model in PyTorch on [AWS](https://aws.amazon.com/) using Amazon Sagemaker.
+
+
+* Download or otherwise retrieve the data.
+* Process / Prepare the data.
+* Upload the processed data to S3.
+* Train a chosen model.
+* Test the trained model (typically using a batch transform job).
+* Deploy the trained model.
+* Use the deployed model for web app.
+    * Setting up a Lambda function.
+    * Setting up API Gateway.
