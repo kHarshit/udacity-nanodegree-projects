@@ -40,10 +40,10 @@ The following tasks were completed:
 
 The [tv_script_generation.ipynb](https://nbviewer.jupyter.org/github/kHarshit/pytorch-projects/blob/master/tv_script_generation.ipynb) contains the project TV Script generation.
 
-* The poject uses LSTM.
+* The project uses LSTM.
 
 
-## Project 4: Generate Faces
+## Project 4: Face Generation using DCGAN
 
 The [face_generation_dcgan.ipynb](https://nbviewer.jupyter.org/github/kHarshit/pytorch-projects/blob/master/face_generation_dcgan.ipynb) contains the project on face generation.
 
@@ -70,3 +70,8 @@ The [sagemaker_sentiment_analysis.ipynb](https://nbviewer.jupyter.org/github/kHa
 * Use the deployed model for web app.
     * Setting up a Lambda function.
     * Setting up API Gateway.
+
+
+## Project 6: Neural Style Transfer
+
+The [project](https://github.com/kHarshit/style-transfer) implements Image Style Transfer Using Convolutional Neural Networks following an implementation by *Leon A. Gatys et al*.
