@@ -53,7 +53,7 @@ To set up your python environment to run the code in this repository, follow the
 
     (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux_NoVis.zip) to obtain the "headless" version of the environment.  You will **not** be able to watch the agent without enabling a virtual screen, but you will be able to train the agent.  (_To watch the agent, you should follow the instructions to [enable a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the **Linux** operating system above._)
 
-2. Follow the instructions in [**`Tennis.ipynb`**](https://nbviewer.jupyter.org/github/kHarshit/udacity-drlnd-projects/blob/master/p3_collab_compet/Tennis.ipynb) to train your agent. The trained weights are in `checkpoint_actor_a.pth`, `checkpoint_actor_b.pth`, `checkpoint_critic_a.pth`, and `checkpoint_critic_b.pth`.
+2. Follow the instructions in [**`Tennis.ipynb`**](https://nbviewer.jupyter.org/github/kHarshit/udacity-nanodegree-projects/blob/master/DRLND_deep_reinforcement_learning_nanodegree/p3_collab_compet/Tennis.ipynb) to train your agent. The trained weights are in `checkpoint_actor_a.pth`, `checkpoint_actor_b.pth`, `checkpoint_critic_a.pth`, and `checkpoint_critic_b.pth`.
 
 3. Check [**`Report.md`**](Report.md) to know more about the learning algorithm and model
    architecture.
