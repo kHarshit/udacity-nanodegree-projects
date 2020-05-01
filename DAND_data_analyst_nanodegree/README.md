@@ -10,4 +10,3 @@ This repository contains the projects of the Udacity's [Data Analyst nanodegree]
 
 * [Project 3: Analyze A/B test results](p3_analyze_AB_test_results) understands the results of an A/B test run by an e-commerce website.
 ![](p3_analyze_AB_test_results/ab_test.png)
-

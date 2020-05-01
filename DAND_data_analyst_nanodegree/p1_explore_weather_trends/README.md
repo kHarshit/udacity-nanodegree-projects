@@ -1,5 +1,8 @@
 # Explore Weather trends
 
+This project, Explore Weather trends, analyzes local and global temperature data and compare the temperature trends where you live (Delhi) to overall global temperature trends.
+![](weather.png) 
+
 ## Questions answered
 
 1. What tools did you use for each step? (Python, SQL, Excel, etc)?
