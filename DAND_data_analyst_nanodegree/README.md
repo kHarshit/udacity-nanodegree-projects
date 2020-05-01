@@ -8,4 +8,6 @@ This repository contains the projects of the Udacity's [Data Analyst nanodegree]
 * [Project 2: Investigate a dataset](p2_investigate_a_dataset) analyzes a dataset and then communicates the findings.
 ![](p2_investigate_a_dataset/co2_emission.jpg)
 
-* [Project 3: Analyze A/B test results](p3_analyze_AB_test_results)
+* [Project 3: Analyze A/B test results](p3_analyze_AB_test_results) understands the results of an A/B test run by an e-commerce website.
+![](p3_analyze_AB_test_results/ab_test.png)
+
