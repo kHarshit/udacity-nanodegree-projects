@@ -11,8 +11,8 @@ This repository contains the projects of the Udacity's [Data Analyst nanodegree]
 * [Project 3: Analyze A/B test results](p3_analyze_AB_test_results) understands the results of an A/B test run by an e-commerce website.
 ![](p3_analyze_AB_test_results/ab_test.png)
 
-* [Project 4: Wrangle and Analyze Data](p4_wrangle_and_analyze_data) wrangles the tweet data of WeRateDogs that rates people's dogs with a humorous comment about the dog.
-![](p4_wrangle_and_analyze_data/)
+* [Project 4: Wrangle and Analyze Data](p4_wrangle_and_analyze_data) wrangles and analyzes the tweet data of WeRateDogs that rates people's dogs with a humorous comment about the dog.
+![](p4_wrangle_and_analyze_data/images/weratedogs.png)
 
 * [Project 5: Communicate Data Findings](p5_communicate_data_findings)
 ![](p5_communicate_data_findings/)
