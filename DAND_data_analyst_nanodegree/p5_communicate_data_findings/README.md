@@ -24,7 +24,7 @@ During data wrangling,
 
 ## Summary of Findings
 
-> Some of the findings of the data exploration are:
+Some of the findings of the data exploration are:
 
 * The biggest reason for the flights to be cancelled is the Carrier causes followed by Weather causes.
 * February and December are the worst month to travel having maximum proportion of delays due to weather.
@@ -38,7 +38,7 @@ During data wrangling,
 
 ## Key Insights for Presentation
 
-> In the presentation, I'm showing the analysis of cancelled and delayed flights.
+In the presentation, I'm showing the analysis of cancelled and delayed flights.
 
 ![slides_gif.gif](slides_gif.gif)
 
@@ -46,7 +46,7 @@ During data wrangling,
 
 ## Files
 
-1. [`exploration.ipynb`](https://nbviewer.jupyter.org/github/kHarshit/udacity-nanodegree-projects/blob/master/DAND_data_analyst_nanodegree/p5_communicate_data_findings/exploration.ipynb) or [exploration.html](exploration.html): Data exploration with data visualization
+1. [`exploration.ipynb`](https://nbviewer.jupyter.org/github/kHarshit/udacity-nanodegree-projects/blob/master/DAND_data_analyst_nanodegree/p5_communicate_data_findings/exploration.ipynb) or [`exploration.html`](exploration.html): Data exploration with data visualization
 2. [`slide_deck.ipynb`](https://nbviewer.jupyter.org/github/kHarshit/udacity-nanodegree-projects/blob/master/DAND_data_analyst_nanodegree/p5_communicate_data_findings/slide_deck.ipynb) or [`slide_deck.html`](slide_deck.html): Presentation using Jupyter slides
 
 
