@@ -20,6 +20,6 @@ This repository contains the Udacity's nanodegrees' projects completed by me.
   * **Project 2: Investigate a dataset** analyzes a dataset and then communicates the findings.
   * **Project 3: Analyze A/B test results** understands the results of an A/B test run by an e-commerce website.
   * **Project 4: Wrangle and Analyze Data** wrangles and analyzes the tweet data of WeRateDogs that rates people's dogs with a humorous comment about the dog.
-  * **Project 5: Communicate Data Findings**
+  * **Project 5: Communicate Data Findings** deals with data exploration of the flights cancellation and delay dataset mainly using data visualization and present the findings using explanatory visualizations.
 
 
