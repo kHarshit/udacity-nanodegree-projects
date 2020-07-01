@@ -1,24 +1,25 @@
-# (Flights data Exploration)
-## by (Harshit Kumar)
+# Flights' Cancellation and Delay Exploration
+## by Harshit Kumar
 
 
 ## Dataset
 
-> This project explores a dataset that reports flights in the United States, including carriers, arrival and departure delays, and reasons for delays, from January 2006 to April 2008.
->
->Data source#1: http://stat-computing.org/dataexpo/2009/the-data.html  
->Data source#2: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/HG7NV7#
->
->The dataset has 16,984,354 flight details with 29 features. The data ranges from Jan 11, 2006 to April 17, 2008.
->
->The variables in the dataset contains information about flights' origin, departure, date and time, duration, cancellation status, delay (and cause of delay), etc.
->
->Also, a flight is considered delayed when its arrival delay is longer than 15 minutes.
->
->During data wrangling,   
-> * The year-wise data of 2006, 2007, and 2008 was combined into a single csv file.  
-> * Some of the variables such as ArrTime and DepTime were converted from hh:mm format to datetime (min) format.  
-> * Since a flight is considered delayed if its (arrival) delay is over 15 minutes (inclusive), I created a subset of the original dataframe containing delayed flights.
+This project explores a dataset that reports flights in the United States, including carriers, arrival and departure delays, and reasons for delays, from January 2006 to April 2008.
+
+Data source#1: http://stat-computing.org/dataexpo/2009/the-data.html  
+Data source#2: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/HG7NV7#
+
+The dataset has 16,984,354 flight details with 29 features. The data ranges from Jan 11, 2006 to April 17, 2008.
+
+The variables in the dataset contains information about flights' origin, departure, date and time, duration, cancellation status, delay (and cause of delay), etc.
+
+Also, a flight is considered delayed when its arrival delay is longer than 15 minutes.
+
+During data wrangling,   
+
+* The year-wise data of 2006, 2007, and 2008 was combined into a single csv file.  
+* Some of the variables such as ArrTime and DepTime were converted from hh:mm format to datetime (min) format.  
+* Since a flight is considered delayed if its (arrival) delay is over 15 minutes (inclusive), I created a subset of the original dataframe containing delayed flights.
 
 
 ## Summary of Findings
@@ -42,6 +43,12 @@
 ![slides_gif.gif](slides_gif.gif)
 
 ---
+
+## Files
+
+1. [`exploration.ipynb`](https://nbviewer.jupyter.org/github/kHarshit/udacity-nanodegree-projects/blob/master/DAND_data_analyst_nanodegree/p5_communicate_data_findings/exploration.ipynb) or [exploration.html](exploration.html): Data exploration with data visualization
+2. [`slide_deck.ipynb`](https://nbviewer.jupyter.org/github/kHarshit/udacity-nanodegree-projects/blob/master/DAND_data_analyst_nanodegree/p5_communicate_data_findings/slide_deck.ipynb) or [`slide_deck.html`](slide_deck.html): Presentation using Jupyter slides
+
 
 # Communicate Data Findings 
 
